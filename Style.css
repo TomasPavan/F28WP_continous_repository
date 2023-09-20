@@ -1,0 +1,52 @@
+/*
+  Style.css is the main stylesheet for the home page
+
+*/
+
+
+
+/*
+    css for the naviagtion bar
+*/
+
+.navbar
+{
+    background-color: rgb(226, 226, 226);
+    overflow: hidden;
+}
+
+/*
+  css for the elements in the navigation bar
+*/
+
+.navbar a 
+{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+/*
+  css when hovering the elements in the navigation bar
+*/
+
+.navbar a:hover 
+  {
+    background-color: #ffffff;
+    color: rgb(213, 103, 103);
+  }
+
+/*
+  css for when the elements are clicked in the navigation bar
+*/
+
+.navbar a:active 
+  {
+    background-color: #ffffff;
+    color: rgb(213, 103, 103);
+  }
