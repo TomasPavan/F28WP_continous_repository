@@ -50,3 +50,33 @@
     background-color: #ffffff;
     color: rgb(213, 103, 103);
   }
+
+
+#logo
+ {
+    height: 85px;
+    width: 85px;
+    border-radius: 12%;
+    text-align: center;
+ }
+
+#line_break_top_mp
+{
+  padding-bottom: 200px;
+  width: 200%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+#line_break_bottom_mp
+{
+  width: 200%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  
+}
+
+
+
