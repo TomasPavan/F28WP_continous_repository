@@ -57,7 +57,7 @@
     height: 85px;
     width: 85px;
     border-radius: 12%;
-    text-align: center;
+    margin-left: 48%;
  }
 
 #line_break_top_mp
@@ -67,6 +67,9 @@
   border-left-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
+  
+  margin: 0;
+
 }
 
 #line_break_bottom_mp
@@ -76,7 +79,20 @@
   border-right-color: transparent;
   border-bottom-color: transparent;
   
+  margin: 0;
+
 }
 
+.Main_table_rank
+{
+  border: 1px solid black; 
+}
+
+#table,th,td
+{
+  border: 1px solid black; 
+  width: 20%;
+  margin-bottom: 20%; 
+}
 
 
