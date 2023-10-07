@@ -88,13 +88,34 @@
   border: 1px solid black; 
 }
 
-table,tr,td
+table,tr
 {
   border: 1px solid black; 
   width: 20%;
 }
 
 
+.row_num
+{
+  width: 1%; 
+  height: 1%; 
+  background-color: transparent;
+  color: #000000;
+
+}
+
+td
+{
+  background-color: #72A882;
+  border: 1px solid black; 
+  width: 20%;
+  color: #ffffff;
+}
+
+td:hover
+{
+  background-color: rgb(90, 109, 96);
+}
 
 
 .showcase
@@ -107,3 +128,30 @@ table,tr,td
   padding-bottom: 10px;
 }
 
+
+.buttons 
+{
+  position: absolute;
+  top: 70%;
+  right: 5%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button 
+{
+  width: 300px; 
+  height: 60px; 
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #72A882;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(90, 109, 96);
+}
