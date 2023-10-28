@@ -132,8 +132,8 @@ td:hover
 .buttons 
 {
   position: absolute;
-  top: 70%;
-  right: 5%;
+  top: 62%;
+  right: 10%;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -152,6 +152,42 @@ td:hover
   border-radius: 5px;
 }
 
-.button:hover {
+.button:hover 
+{
   background-color: rgb(90, 109, 96);
+}
+
+.coffee_homescreen_1
+{
+  max-width: 968px;
+  margin-left:auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 1.5rem;
+  margin-top: 2rem; 
+  height:300px;
+  width:200;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  
+}
+
+.coffee_homescreen_1 .coffee_grid
+{
+  padding: 20px;
+  box-shadow:  1px, 2px, 11px, 4px rgb(14, 55, 54 / 15%);
+  border-radius: 0.5rem;
+  position: relative;
+  
+}
+.coffee_homescreen_1 .coffee_grid img
+{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  border: none;
+  border-radius: 5px;
 }
